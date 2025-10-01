@@ -15,6 +15,7 @@
     "editor.wordWrap": "on",
     "workbench.colorTheme": "Palenight Operator",
     "workbench.iconTheme": "material-icon-theme",
+    
 
     // Code Runner
     "code-runner.runInTerminal": true,
@@ -38,6 +39,8 @@
         "C:/mingw64/lib"
     ],
     "C_Cpp.errorSquiggles": "enabled",
-    "C_Cpp.intelliSenseEngine": "disabled" // set to "Disabled" if you want it off
+    "C_Cpp.intelliSenseEngine": "default", // set to "Disabled" if you want it off
+    
+
 }
 
