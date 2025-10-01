@@ -1,0 +1,43 @@
+{
+
+    "files.autoSave": "afterDelay",
+
+    // SSH settings
+    "remote.SSH.remotePlatform": {
+        "titan": "linux",
+        "langs": "linux"
+    },
+
+    // Editor appearance
+    "editor.fontSize": 20,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Palenight Operator",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Code Runner
+    "code-runner.runInTerminal": true,
+
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.profiles": {
+        "Git Bash": {
+            "path": "C:/Program Files/Git/bin/bash.exe"
+        }
+    },
+
+    // -------------------------
+    // C++ extension defaults
+    // -------------------------
+    "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.includePath": [
+        "C:/mingw64/include",
+        "C:/mingw64/lib"
+    ],
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngine": "default" // set to "Disabled" if you want it off
+}
+
