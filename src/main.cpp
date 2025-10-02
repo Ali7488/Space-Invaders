@@ -32,15 +32,15 @@ int main()
         glfwTerminate();
         return -1;
     }
-    glClearColor(1.0, 0.0, 0.0, 1.0); //sets background to opaque red every time a frame refreshes
+    glClearColor(1.0, 0.0, 4.0, 1); //sets background to opaque red every time a frame refreshes
     while(!glfwWindowShouldClose(window)) //while user has NOT pressed X to close the window
     {
-        glClear(GL_COLOR_BUFFER_BIT); //clear the color buffer
+        glClear(GL_COLOR_BUFFER_BIT); //clear the color buffer to what we set GLclear to be
         glfwSwapBuffers(window); //display the frame that was just drawn (swap back buffer and front buffer)
         glfwPollEvents(); //check for user inputs
     }
 
-    //deleting windows and clearing resources
+    //deleting the created windows and clearing resources
     glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
